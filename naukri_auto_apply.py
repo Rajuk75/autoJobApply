@@ -154,7 +154,7 @@ async def apply_to_jobs(page, context):
     search_url    = (
         f"https://www.naukri.com/{keyword_slug}-jobs"
         f"{location_part}"
-        f"?experience={EXPERIENCE_YEARS}"
+        f"?experience={EXPERIENCE}"
     )
 
     print(f"🔍 Searching: {search_url}\n")
